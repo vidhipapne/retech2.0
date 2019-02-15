@@ -10,7 +10,7 @@ A patient can get an appointment easily by filling up the necessary details.
 ![appointment](appointment.PNG)
 
 The doctor can register his or her name with the hospital using an userid and a password.
-![register]()
+![register](register.png)
 The doctor can view the list of patients.
 
 *Break dowun into end to end tests*
