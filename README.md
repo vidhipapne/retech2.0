@@ -7,3 +7,7 @@ to their requirements.
 Getting Started 
 
 A patient can get an appointment easily by filling up the necessary details.
+![appointment](appointment.png)
+
+The doctor can register his or her name with the hospital using an userid and a password.
+The doctor can view the list of patients.
