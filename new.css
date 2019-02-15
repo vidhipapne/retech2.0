@@ -56,3 +56,17 @@ body {
 p {
         font-size: 20px;
 }
+.circle{
+
+    height: 150px;
+    width: 150px;
+    background-color: #88eae5;
+    display: inline-grid;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 80%;
+}
+.col-sm-4{
+  border-style: solid;
+}
