@@ -11,24 +11,27 @@ A patient can get an appointment easily by filling up the necessary details.
 
 The doctor can register his or her name with the hospital using an userid and a password.
 ![register](register.png)
-The doctor can view the list of patients.
+The doctor can view the list of patients after logging in.
+![login form](drlogin.png)
 
-*Break dowun into end to end tests*
-Features
+Features:
 
 **Platforms**
+
 *Languages used*
   HTML
   CSS
   BOOTSTARP
   
 *Backend and tools*
+
  WAMP
 mySQL 
  PHP
  
  
 *References*
+
 w3 schools 
 getbootstrap.com
 
