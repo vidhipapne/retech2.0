@@ -1,41 +1,76 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<title>Registration Form</title>
-		<link rel="stylesheet" type="text/css" href="register.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="new.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	</head>
 <body>
-	<center>
-	
-	<h1 align="center">REGISTRATION FORM </h1>
-	<form method="post" action="register.php">
-	<table class=table >
-			<tr>
-				<th>
-				Name:</th><td> <input type="text" name="name"></td>
-			</tr><br>	
-			<tr>	
-			    <th>Age:</th> <td>  <input type="number" name="age"></td>
-		    </tr><br> 
-		     
-         <tr>
-        	<th>Contact no:</th><td>  <input type="number" name="contact" value="+91"><br><br></td>
-        </tr><br>
-        <tr>
-        <th>Choose your Doctor:</th> <td><select>
-        										<option>Dr. Rahul Jain </option>		
-        										<option>Dr.Sanjay Khare </option>
-        										<option>Dr.Vinod Somani </option>
-        										<option>Dr. Vandana Bhandari</option>
-        										<option>Dr. Leena Srivastava</option>
-        										
-        								</select></td>
-        </tr>
-       </table><br><br><br>
-         <button>					
-         <input type="submit" value="register" align="center">
-         </button>			
-       
-	</form>
-	</center>
-</body>	
+	<body>
+	<h1 class="text-center margin contaier-fluid">City Hospital<br>
+  		Welcome to our online appointment scheduling services
+  	</h1>
+  	<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+	<div class="row">
+    <div class="col-sm">
+      
+    </div>
+    <div class="col-sm">
+      <form action="register.php">
+  <div class="form-group">
+    <label for="name">Name: </label>
+    <input type="text" class="form-control" id="name">
+  </div>
+  <div class="form-group">
+    <label for="age">Age: </label>
+    <input type="number" class="form-control" id="age">
+  </div>
+  <div class="form-group">
+    <label for="contact">Contact: </label>
+    <input type="contact" class="form-control" id="contact">
+  </div>
+  <div class="form-group">
+  <select>
+  		<option>Dr. Rahul Jain </option>		
+        <option>Dr.Sanjay Khare </option>
+        <option>Dr.Vinod Somani </option>
+        <option>Dr. Vandana Bhandari</option>
+        <option>Dr. Leena Srivastava</option>
+  </select>
+</div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="container-fluid text-center bg-2" >
+	<p id="contact"> Contact Us</p>
+	<a href="gmail.com"><i class='fas fa-envelope'></i></a>
+</footer>
+</body>
 </html>
+
+  
