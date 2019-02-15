@@ -14,7 +14,10 @@ The doctor can register his or her name with the hospital using an userid and a 
 The doctor can view the list of patients after logging in.
 ![login form](drlogin.png)
 
-Features:
+**Features**
+
+The use of scheduling system will save time.
+ Reduce expenses for paperwork and minimize scheduling costs through increased productivity and efficiency.
 
 **Platforms**
 
@@ -26,7 +29,7 @@ Features:
 *Backend and tools*
 
  WAMP
-mySQL 
+ mySQL 
  PHP
  
  
